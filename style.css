@@ -69,7 +69,8 @@ ul.products{
     justify-content: space-between;
 }
 ul.products li{
-    flex-basis: 25%;
+    flex-basis: 55%;
+    margin-left: 25%;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
@@ -95,7 +96,6 @@ ul.products li .product-top a.buy-now{
     background-color: rgb(4, 139, 250);
     color: #fff;
     padding: 10px 0px;
-    position: absolute;
     bottom: -36px;
     width: 100%;
     transition: 0.25s ease-in-out;
@@ -109,13 +109,16 @@ ul.products li:hover a.buy-now{
     text-decoration: none;
 }
 ul.products li .product-info a.product-cat{
-    font-size: 15px;
+    font-size: 25px;
+    text-align: center;
     text-transform: uppercase;
     color: #000;
     padding: 0px 0px;
 }
 ul.products li .product-info .product-price{
     color: #111;
+    text-align: center;
+    font-size: 25px;
     padding: 2px 0px;
     font-weight: bold;
 }

@@ -69,8 +69,8 @@ ul.products{
     justify-content: space-between;
 }
 ul.products li{
-    flex-basis: 75%;
-    margin-left: 15%;
+    flex-basis: 85%;
+    margin-left: 10%;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;

@@ -133,6 +133,10 @@ ul.products li .product-info .product-price{
     padding: 2px 0px;
     font-weight: bold;
 }
+.rung {
+    color: red;
+    font-size: 45px;
+}
 
 
 /* Phần footer */
